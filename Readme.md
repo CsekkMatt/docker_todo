@@ -4,7 +4,7 @@
 
 
 ### create mynetwork in docker 
-    docker network create mynetwork
+    docker network create todo_mynetwork
 
 ### create mongodb instance in mynetwork
 
@@ -22,6 +22,10 @@
 ### Build docker image from Dockerfile 
 
     docker build -t myapp .
+
+### Docker compose up (Kafka & Zookeeper)
+
+    docker-compose up
 
 ### Run spring app container 
 
